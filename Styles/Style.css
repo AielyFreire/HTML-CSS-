@@ -10,16 +10,17 @@
  --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
-{
-    margin: 0;
-    padding: 0;
-}
+margin {
+margin:not(0)
+padding not(0)
+} 
+
 
 body {
 
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria)
+    background-color:var(--cor-primaria);
+    color:var(--cor-secundaria)
 }
 
 .cabecalho {
